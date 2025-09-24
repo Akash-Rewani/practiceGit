@@ -1,0 +1,39 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: 2px solid red;
+    padding: 30px;
+}
+
+.first-box {
+    height: 300px;
+    width: 300px;
+    background-color: rgb(49, 134, 226);
+}
+
+.second-box {
+    height: 300px;
+    width: 300px;
+    background-color: rgba(67, 219, 7, 0.679);
+}
+
+@media (min-width:700px) {
+    .container {
+        flex-direction: row;
+        position: relative;
+    }
+    .second-box{
+        position: absolute;
+        height: 200px;
+        right: 100px;
+    }
+
+}

@@ -1,0 +1,125 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* border: 2px solid red; */
+    /* font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
+    /* font-family: Arial, Helvetica, sans-serif; */
+     /* font-size: 14px; */
+     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+    
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+
+}
+#heading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: purple;
+    /* border-bottom: 2px solid purple; */
+    text-decoration: underline;
+    margin-bottom: 3px;
+  
+}
+
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#all div {
+    margin: 20px 0;
+    
+
+}
+
+
+
+#all label{
+    display: inline-block;
+    width: 25%;
+   
+    /* background-color: red; */
+
+  
+}
+
+#form {
+    /* border: 2px solid green; */
+     background-color: rgba(116, 116, 235, 0.773);
+     padding: 35px;
+     border-radius: 10px;
+     /* border: 2px solid red; */
+     box-shadow: 0 4px 16px 4px  rgba(0,0,0,0.3);
+    
+}
+#form input{
+    outline: none;
+    padding: 5px;
+    
+   
+}
+
+#btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+#btn input{
+    margin-left: 10px;
+    padding: 10px 50px;
+    border-radius: 10px;
+    background-color: rgb(191, 240, 191);
+    font-weight: 700;
+    cursor: pointer;
+    transition: all ease-in 0.2s;
+    
+}
+#btn input:hover{
+     background-color: rgba(116, 116, 235, 0.773);
+     border: 2px solid rgb(158, 234, 128);
+     color: white;
+     
+}
+#btn #nd{
+    background-color: rgb(233, 157, 157);
+}
+#btn #nd:hover{
+     background-color:  rgba(116, 116, 235, 0.773);
+    border: 2px solid rgb(235, 124, 94);
+    color: white;
+}
+
+#course input{
+    margin: 10px;
+    cursor: pointer;
+    /* margin-right: 30px; */
+}
+#gen input{
+    margin: 6px;
+    cursor: pointer;
+    /* padding: 20px; doubt radio input size increse how*/
+}
+#add{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    /* background-color: red; */
+}
+#add textarea{
+    margin-left: 4px;
+}
+table input{
+    
+    width:190px
+
+}

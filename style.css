@@ -1,0 +1,116 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+.container {
+    height: 100%;
+    display: flex;
+    padding: 10px 40px;
+    align-items: center;
+    gap: 5px;
+}
+
+.left {
+    flex: 60%;
+    height: 80%;
+    padding: 40px;
+}
+
+.content {
+    height: 100%;
+    width: 100%;
+    background-color: rgb(183, 190, 190);
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content-left {
+    padding: 30px 20px;
+}
+
+.content-left h1 {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.content-left p {
+    line-height: 1.5;
+    font-family:cursive;
+    margin-top: 1px;
+}
+
+.content-left button {
+    padding: 10px 50px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    border: none;
+    margin-top: 5px;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+button:hover {
+    background: white;
+    color: black;
+}
+
+.content-right {
+    padding: 30px 20px;
+}
+
+.content-right img {
+    border-radius: 15px;
+}
+
+.right {
+    flex: 40%;
+    height: 100%;
+    padding: 20px;
+}
+
+.right-top {
+    height: 47%;
+    background-color: bisque;
+    border-radius: 15px;
+    background-image: url('https://images.unsplash.com/photo-1614006083376-4d74891adf6a?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDN8fHxlbnwwfHx8fHw%3D');
+    background-size: cover;
+    background-position: center;
+}
+
+.right-bottom {
+    height: 47%;
+    background-color: rgb(135, 135, 224);
+    margin-top: 6%;
+    border-radius: 15px;
+    background-image: url('https://images.unsplash.com/photo-1571309578713-748a2b60f944?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDF8fHxlbnwwfHx8fHw%3D');
+    background-size: cover;
+    background-position: center;
+}
+
+@media (max-width:900px) {
+    .container {
+        flex-wrap: wrap;
+        align-content: center;
+    }
+
+    .left {
+        height: 35%;
+        padding: 10px;
+    }
+
+    .right {
+        height: 55%;
+        padding: 10px;
+    }
+}
+
